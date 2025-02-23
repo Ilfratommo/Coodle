@@ -23,7 +23,7 @@ struct SetupScreen: View {
             
             ScrollView {
                 VStack(spacing: 30) {
-                    Text("Welcome to Coodle!")
+                    Text("Coodle!!")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .foregroundColor(.primary)

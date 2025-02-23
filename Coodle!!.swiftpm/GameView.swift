@@ -72,7 +72,7 @@ struct GameView: View {
                                         .aspectRatio(contentMode: .fit)
                                         .frame(width: 40, height: 40)
                                         .foregroundColor(selectedTool == .pen ? .blue : .gray)
-                                        .shadow(color: selectedTool == .pen ? .blue : .clear, radius: 10)
+                                        //.shadow(color: selectedTool == .pen ? .blue : .clear, radius: 10)
                                 }
                                 Button(action: { selectedTool = .eraser }) {
                                     Image(systemName: "eraser")
@@ -80,7 +80,7 @@ struct GameView: View {
                                         .aspectRatio(contentMode: .fit)
                                         .frame(width: 40, height: 40)
                                         .foregroundColor(selectedTool == .eraser ? .blue : .gray)
-                                        .shadow(color: selectedTool == .eraser ? .blue : .clear, radius: 10)
+                                        //.shadow(color: selectedTool == .eraser ? .blue : .clear, radius: 10)
                                 }
                             }
                             .padding(.trailing)
@@ -91,7 +91,7 @@ struct GameView: View {
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 40, height: 40)
                                     .foregroundColor(.blue)
-                                    .shadow(color: .blue, radius: 10)
+                                    //.shadow(color: .blue, radius: 10)
                             }
                             .padding(.trailing)
                         }

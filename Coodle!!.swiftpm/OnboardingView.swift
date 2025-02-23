@@ -14,7 +14,7 @@ struct OnboardingView: View {
             .ignoresSafeArea()
             
             VStack(spacing: 20) {
-                Text("Welcome in Coodle!")
+                Text("Welcome in Coodle!!")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(.primary)
